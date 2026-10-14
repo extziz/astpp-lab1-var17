@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>SubDemo</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalcClassBr\CalcClassBr.Net8.csproj" />
+    <ProjectReference Include="..\ErrorLibrary\ErrorLibrary.Net8.csproj" />
+  </ItemGroup>
+
+</Project>
